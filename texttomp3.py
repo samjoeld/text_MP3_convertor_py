@@ -1,7 +1,7 @@
 import os
 import pyttsx3
 
-def text_to_audio(text, filename='output.mp3', save_path='C:\\Users\\tkmra\\Music'):
+def text_to_audio(text, filename='output.mp3', save_path='file location'):
     # Initialize the Text-to-Speech engine
     engine = pyttsx3.init()
 
